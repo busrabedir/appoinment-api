@@ -1,41 +1,20 @@
-# Hastane Randevu API
+## 🏥 Hospital Appointment API
 
-- CRUD endpointlerine sahip bir hastane randevu apisi
-- Create (Oluştur)
-- Read (Oku)
-- Update (Güncelle)
-- Delete (Sil)
+A RESTful Hospital Appointment API built with Node.js and Express.js. This project provides CRUD operations for managing hospital appointments, including creating, retrieving, updating and deleting appointment records. It also supports filtering appointments by doctor and retrieving individual appointment details.
 
-- Randevuları Al
-- Get: /api/appointments
+## 📽️ Preview
+<img width="800" height="456" alt="appoinment" src="https://github.com/user-attachments/assets/14d789c4-b7d8-4881-8bed-82364be6c74e" />
 
-- Kendi Randevularımı Al (Doktara Ait Randevular)
-- Get: /api/appointments/:doktor_ismi
+## ✨ Features
+- Create Appointments: Create new appointments with automatically generated unique IDs and timestamps.
+- List Appointments: Retrieve all appointment records.
+- Filter by Doctor: Get appointments belonging to a specific doctor.
+- Appointment Details: Retrieve a single appointment using its ID.
+- Update Appointments: Modify existing appointment information.
+- Delete Appointments: Remove appointments by ID.
+- JSON File Storage: Store and update appointment data in a JSON file.
 
-- Randevu Detayını Al
-- Get: /api/appointments/:id
-
-- Randevu oluştur
-- Post: /api/appointments
-
-- Randevuyu Güncelle
-- Patch: /api/appointments/:id
-
-- Randevuyu Sil
-- Patch: /api/appointments/:id
-
-# Teknolojiler
-
-- express
-- nodemon
-
-# Klasör Yapısı
-
-appointment_api/
-|── controllers/ # İş Mantığı (CRUD işlemleri)
-|── routes/ # Route tanımları
-|── data/ # JSON veri dosyası (db)
-|── middleware/ # Ara yazılımlar
-|── utils/ # Yardımcı fonksiyonlar
-|── server.js # Ana server dosyası
-# appoinment-api
+## 🛠️ Technologies
+- Node.js
+- Express.js
+- Nodemon
